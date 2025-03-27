@@ -153,6 +153,8 @@ li a{
 	flex-direction: column;
   min-width: 100%;
   box-sizing: border-box;
+  margin-left:50px ;
+  margin-right:50px ;
 }
 
 .products img {
@@ -176,16 +178,16 @@ li a{
 }
 
 .slide3 img{
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
 } 
 .slide2 img{
     height: 400px;
-    width: 300px;
+    width: 400px;
 } 
 .slide1 img{
     height: 250px;
-    width: 300px;
+    width: 400px;
 }
  .products h3{
  	color: #E1B995;
