@@ -74,19 +74,19 @@ li a{
 .mobmenu a:hover{
 	background-color: lightskyblue;
 }
-@media(max-width:768px){
+/*@media(max-width:768px){
 	.navmenu{
 		display: none;
 	}
 	#bars{
 		display: block;
 	}
-}
+}*/
 
 
 .title{
 	color:lightskyblue;
-	font-size: 100px;
+	font-size: 40px;
 	text-transform: ;
 	text-shadow: 2px 2px 3px whitesmoke;
 	text-align: center;
@@ -110,8 +110,14 @@ li a{
 	margin-left: 70px;
 }
 
+.clock{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
 #menu{
-	width: 400px;
+	width: 600px;
 	height: 80px;
 	border-radius: 12px;
 	background-color: #B3826C;
@@ -119,82 +125,13 @@ li a{
 	text-align: center;
 	box-shadow: 4px 4px 4px 4px lightskyblue;
 	color: white;
-	padding-top: 5px;
+	padding-top: 10px;
 	margin-top: 15px;
-}
-	
-/*.products {
-    display:flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-.products div{
-	display: inline-block;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	/*height: 60vh;*/
-}
-/*.products img{
-	height:250px;
-	width:  400px;
-	object-fit: cover;
-}
-.products h3{
-	color: #B3826C ;
-}
-
-.price{
-	color: gray; 
-}
-
-
-.products1{
+	margin-left: 500px;
 	display: flex;
-	flex-wrap: wrap;
-	gap: 20px;
-	
-
+	justify-content: center;
 }
 
-.products1 div{
-	display: inline-block;
-	text-align: center;
-	min-width: 400px;
-}
-
-.products1 img{
-	height:400px;
-	width:  400px;
-	
-}
-.products2{
-	display: flex;
-	flex-wrap: wrap;
-	gap: 20px;
-	
-
-}
-
-.products2 div{
-	display: inline-block;
-	text-align: center;
-	min-width: 400px;
-}
-
-.products2 img{
-	height:400px;
-	width:  400px;
-	
-}
-.products, .products1, .products2{
-	margin-left: 100px;
-}
-.slide{
-	display: inline-flex;
-  transition: transform 0.5s ease-in-out;
-}*/
 .carousel {
   position: relative;
   max-width: 300px;
@@ -205,7 +142,10 @@ li a{
 
 .slide {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   transition: transform 0.5s ease-in-out;
+  width:100%;
 }
 
 .products {
@@ -231,7 +171,8 @@ li a{
 }
 
 .products h1{
-	text-align:center
+	text-align:center;
+	font-size:25px;
 }
 
 .slide2 img{
@@ -247,117 +188,9 @@ li a{
  	font-size: 18px;
  	font-weight: bold;
  }
-/* Navigation Buttons */
-.carousel button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 20px;
-  border-radius: 50%;
-}
 
-.prev { left: 10px; }
-.next { right: 10px; }
-
-.carousel button:hover {
-  background: #c49a6c;
-}
-
-/* Dot Indicators */
-.dots {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.dot {
-  height: 10px;
-  width: 10px;
-  margin: 0 5px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.dot.active {
-  background-color: #c49a6c;
-}
-/*.carousel {
-  position: relative;
-  max-width: 300px;
-  margin: auto;
-  overflow: hidden;
-  touch-action: pan-y; /* Enables swipe */
-}
-
-/*.carousel-container {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.slide {
-  min-width: 100%;
-  box-sizing: border-box;
-}
-
-.slide img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-p {
-  font-size: 18px;
-  font-weight: bold;
-  color: #5a3e2b;
-}
-
-/* Navigation Buttons */
-/*button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 20px;
-  border-radius: 50%;
-}
-
-.prev { left: 10px; }
-.next { right: 10px; }
-
-button:hover {
-  background: #c49a6c;
-}
-
-/* Dot Indicators */
-/*.dots {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.dot {
-  height: 10px;
-  width: 10px;
-  margin: 0 5px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.dot.active {
-  background-color: #c49a6c;
-}*/
 .visit{
-	color: #B3826C;
+	color: ;
 	display: flex;
 	gap: 70px;
 	flex-wrap: wrap;
@@ -460,4 +293,33 @@ footer{
 	background-color: black;
 	opacity: 0.7;
 	color: white;
+}
+
+.slider-nav a{
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+
+}
+.slider-nav a:hover{
+	opacity: 1;
+}
+
+#slide1, #slide2, #slide3{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+@media(max-width:768px){
+	body{
+		width: 90vw;
+		flex-wrap: wrap;
+		overflow: hidden;
+		background-color: lightcyan;
+	}
+
 }
