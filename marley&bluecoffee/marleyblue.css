@@ -156,7 +156,7 @@ li a{
 }
 
 .products img {
-  width: 400px;
+  width: 250px;
   border-radius: 10px;
 }
 
@@ -176,16 +176,16 @@ li a{
 }
 
 .slide3 img{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
 } 
 .slide2 img{
     height: 400px;
-    width: 400px;
+    width: 300px;
 } 
 .slide1 img{
     height: 250px;
-    width: 400px;
+    width: 300px;
 }
  .products h3{
  	color: #E1B995;
