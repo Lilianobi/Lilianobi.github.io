@@ -361,7 +361,7 @@ Their bathroom was very clean. I got a freebie hand sanitiser pen from the cafe 
 		<h1 class="title">
 			CONTACT US
 		</h1>
-		<form id="contactForm">
+		<form id="contactForm" onsubmit="return validateForm()">
 			<h2 id="hear" style="color:#B3826C; font-size:40px; font-weight: bold; text-shadow: 2px, 2px, 3px, grey;"> We love to hear from you.</h2>
 			<div class="msg">
 				<div>
@@ -380,7 +380,28 @@ Their bathroom was very clean. I got a freebie hand sanitiser pen from the cafe 
 			<input id="message" type="text" name="inquiry" placeholder="Type here" style="height:100px; width:600px;">
 			<br>
 			
-			<button>Submit</button>
+			<button type="submit" onclick="return validateForm()" >Submit</button>
+
+
+    <script>
+        function validateForm() {
+            var name = document.getElementById("fullName").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+
+            if (name === "" || email === "" || message === "") {
+                alert("All fields are required!");
+                return false; // Prevent form submission
+            }
+
+            alert("Message Submitted!");
+            return true; // Allow form submission
+        }
+    </script>
+
+</body>
+</html>
+
 		</div>
 	</div>
 		</form>
