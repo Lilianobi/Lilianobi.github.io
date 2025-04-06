@@ -25,7 +25,7 @@ nav ul li{
 
 }
 nav ul{
-	padding-left: 400px;
+	padding-left: 200px;
 }
 li{
 	gap: 30px;
@@ -95,12 +95,25 @@ li a{
 	text-align: center;
 	box-shadow: 2px 2px 2px 3px gray;
 	color: white;
-	padding-top: 10px;
-	margin-top: 15px;
-	margin-left: 500px;
-	display: flex;
-	justify-content: center;
+	padding-left: 250px;
+	font-weight: bold;
+	
+	
 }
+
+div #menu{
+	display: flex;
+	justify-self: center;
+	align-items: center;
+
+}
+
+#menu p{
+	text-align: center;
+	
+}
+
+
 
 .carousel {
   position: relative;
@@ -295,18 +308,31 @@ footer{
 @media(max-width:768px){
 	body{
 		width:100vw;
-		flex-wrap: wrap;
 		overflow: hidden;
 		background-color: lightcyan;
 		font-size: 16px;
 		font-family: verdana;
 	}
+
+	.navmenu{
+		top: 70px;
+		right:0;
+		position:absolute;
+		flex-direction: column;
+		gap: 0;
+		text-align: center;
+		overflow: hidden;
+
+	}
+	#bars i{
+		display: block;
+		right:0;
+	}
+}
 	header{
 		width: 100%;
 	}
-	header{
-		width:800px;
-	}
+	
   nav ul{
   	padding-left: 50px;
   }
@@ -330,7 +356,7 @@ footer{
 		font-size: 18px;
 	}
 	.introduction{
-		width: 800px;
+		width: 700px;
 
 	}
 	.introduction img{
@@ -458,13 +484,13 @@ footer{
 }
 }
 
-
-/*@media(max-width:768px){
+@media and (max-width:1180px){
+	header{
+		font-size: 25px;
+	}
 	.navmenu{
-		display: none;
+		padding-left: 50px;
+		
 	}
-	#bars{
-		display: block;
-		right:0;
 	}
-}*/
+

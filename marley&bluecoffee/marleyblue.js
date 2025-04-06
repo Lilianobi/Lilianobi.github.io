@@ -1,9 +1,20 @@
-function toggleMenu(){
-	let mobmenu = document.querySelector(".mobmenu");
-	((mobMenu.style.display=
-			(mobMenu.style.display ===
-				"block") ? "none" : "block";
+
+	let navmenu = 
+	document.getElemmentById("navmenu")
+
+	navmenu.style.maxheight = "0px";
+    
+    function toggleMenu(){
+    	if(navmenu.style.maxheight = "0px")
+    	{
+    		navmenu.style.maxheight = "400px";
+    	}
+    	else{
+    		navmenu.style.maxheight = "0px";
+    	}
 }
+
+
 
 document.getElemmentById("contactForm").addEventListener("submit", 
 	function(event){
