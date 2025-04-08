@@ -238,5 +238,9 @@ footer ul li{
         display: block;
     }
 
+   section p{
+    width: 80vw;
+   }
+
     
 }
