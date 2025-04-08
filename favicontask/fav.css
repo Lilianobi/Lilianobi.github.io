@@ -7,6 +7,7 @@
 html, body{
     font-family: 'source sans 3';
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 nav{
@@ -183,7 +184,7 @@ footer ul li{
 @media screen and (max-width: 900px) {
     body{
         font-size: 16px;
-        width:100vw;
+        overflow-x: hidden;
         display: flex;
         flex-direction: column;
         overflow: hidden;
@@ -203,14 +204,15 @@ footer ul li{
         text-align: left;
         display: flex;
         flex-direction: column;
-        gap:0;
+        gap: 0;
         background-color: white;
         display: none;
         overflow: hidden;
     }
     .navbtn{
         position: absolute;
-        top:600px;
+        top:260px;
+        line-height: normal;
         left:0;
         right:0;
         text-align: left;
@@ -219,10 +221,21 @@ footer ul li{
         overflow: hidden;
         display: none;
         transition: all .5s ease-in;
+      
     }
 
     nav li{
         padding: 0px;
+    }
+
+    nav ul li{
+        line-height: normal;
+        padding: 5px 10px;
+    }
+
+    nav ul li a{
+        padding: 0;
+        font-size: 16px;
     }
 
 
@@ -238,9 +251,25 @@ footer ul li{
         display: block;
     }
 
-   section p{
-    width: 80vw;
+   .generators div, .resources div{
+    width: 90vw
+   }
+
+   .footlinks{
+    flex-direction: column;
+    gap: 20px;
+   }
+
+   footer p{
+    width: 90vw;
    }
 
     
+}
+
+@media screen and (max-width: 768px){
+    section{
+        height: 450px;
+    }
+
 }
