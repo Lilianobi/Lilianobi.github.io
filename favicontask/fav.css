@@ -6,7 +6,6 @@
 
 html, body{
     font-family: 'source sans 3';
-    scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
@@ -187,7 +186,7 @@ footer ul li{
         overflow-x: hidden;
         display: flex;
         flex-direction: column;
-        overflow: hidden;
+        overflow-x: hidden;
         justify-content: center;
 
     }
@@ -207,7 +206,7 @@ footer ul li{
         gap: 0;
         background-color: white;
         display: none;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .navbtn{
         position: absolute;
@@ -218,7 +217,7 @@ footer ul li{
         text-align: left;
         gap:0;
         background-color: white;
-        overflow: hidden;
+        overflow-x: hidden;
         display: none;
         transition: all .5s ease-in;
       
@@ -253,6 +252,12 @@ footer ul li{
 
    .generators div, .resources div{
     width: 90vw
+   }
+
+   footer{
+    width: 100%;
+    flex-direction: column;
+
    }
 
    .footlinks{
