@@ -1,0 +1,60 @@
+ About Section (Intriguing & Professional)
+I'm Lilian Obi — a creative mind with a passion for bringing ideas to life through design and functionality. With a background in sales and team leadership, I transitioned into the world of design and development where I now focus on crafting visually engaging, user-friendly web experiences.
+
+My journey has been one of evolution — from managing sales teams to managing pixels and code. I’ve led people, built processes, and now, I’m building beautiful interfaces and experiences.
+
+I specialize in creating responsive websites and intuitive layouts, with growing experience in front-end tools like HTML, CSS, and JavaScript. I’m currently expanding my skills in React and modern web development frameworks.
+
+I look forward to working with forward-thinking brands and individuals — designing not just for aesthetics, but for impact and usability. Let’s create something extraordinary together.
+
+📄 Mini Resume (Attachable/Downloadable)
+Lilian Obi
+📍 Lagos, Nigeria
+✉️ lilianobi@email.com | 🔗 www.lilianobi.dev
+
+PROFILE
+Creative and detail-oriented Web Designer and Developer with a strong foundation in sales leadership and client communication. Passionate about building impactful user experiences and functional web interfaces.
+
+SKILLS
+Web Development: HTML, CSS, JavaScript (W3Schools Certified in Progress)
+
+UI/UX Basics
+
+Responsive Design
+
+Content Creation (Podcast & TikTok)
+
+Team Leadership & Communication
+
+Tools: Canva, Figma (Beginner), GitHub, VS Code
+
+EXPERIENCE
+Sales Executive
+XYZ Company | Jan 2022 – Mar 2024
+
+Led a team of 6 sales reps, achieving consistent monthly targets.
+
+Created sales strategies and contributed to marketing content.
+
+Content Creator & Web Developer (Freelance)
+Self-Employed | 2024 – Present
+
+Currently developing responsive web pages and analyzing real-world app UI/UX.
+
+Hosts a Christian podcast and builds community through social platforms.
+
+EDUCATION
+West Virginia University (Upcoming)
+Graduate Program in Progress
+
+University of Nigeria
+B.Sc., [Your Major Here]
+
+GOALS
+Master React and front-end frameworks
+
+Launch full portfolio by [Month]
+
+Work remotely with global clients
+
+Monetize creative content and contribute to open-source projects

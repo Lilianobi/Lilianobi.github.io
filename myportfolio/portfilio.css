@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #ECECEC;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "Poppins";
+}
+nav{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height:70px;
+  background-color: #2C3E50;
+
+}
+
+.navcontact img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.navcontact i{
+  color:#F4F4F4
+ 
+}
+
+.navcontact a{
+  padding-left:10px;
+}
+
+
+.navcontact{
+  
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  gap: 20px;
+}
+
+nav .menu li{
+  list-style-type: none;
+}
+
+nav .menu li a{
+  text-decoration: none;
+  color:#F4F4F4;
+  text-shadow: 1px 1px 2px midnightblue;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.icon{
+  font-size: 30px;
+  color:#F4F4F4;
+  display: none;
+}
+
+.menu a:hover{
+  background-color: #E67E22;
+  text-decoration: underline;
+}
+
+.menu a:active{
+  color:black;
+  background-color: #F4F4F4;
+}
+
+.hero{
+  height: 800px;
+}
+
+.hero img{
+  height:800px;
+  width:100vw;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  overflow-x: hidden;
+  opacity: 0.6;
+  filter: brightness(0.4);
+ 
+}
+
+.herotext{
+  position: absolute;
+  color: black;
+  top:80%;
+  left:5%;
+}
+
+.hero h1{
+  font-size: 50px;
+  font-weight: bold;
+  top: 70%;
+}
+
+.hero p{
+  font-size: 25px;
+  color:   #E67E22;
+  font-weight: bold;
+
+}
+
+.about h1{
+  text-align: center;
+  text-shadow: 1px 1px 2px  #F4F4F4;
+  margin-top: 30px;
+  color:#2C3E50;
+
+}
+
+.about p{
+  margin: 20px 200px;
+  text-justify: auto;
+
+}
+.cv{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cv ul li{
+  list-style-type: none;
+  gap:10px;
+}
+.cv h1{
+  padding-bottom: 20px;
+}
+.exp{
+  width: 400px;
+  height: 250px;
+  border-radius: 8px;
+  background-color: #2C3E50 ;
+  color:#F4F4F4;
+  padding: 0px 15px;
+  box-shadow: 2px 2px 3px black;
+  text-align: left;
+}
+
+.exp h1, .edu h1{
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.edu{
+  width: 400px;
+  height: 250px;
+  border-radius: 8px;
+  background-color: #2C3E50 ;
+  color:#F4F4F4;
+  box-shadow: 2px 2px 3px black;
+  text-align: left;
+  padding: 0px 15px;
+}
+.skills h3{
+  text-align: center;
+  text-shadow: 1px 1px 2px  #F4F4F4;
+  margin-top: 30px;
+  color:#2C3E50;
+
+}
+
+.resume{
+  text-align: center;
+  
+}
+
+.projects h1{
+  text-align: center;
+  text-shadow: 1px 1px 2px  #F4F4F4;
+  margin-top: 30px;
+  color:#2C3E50;
+
+}
+.projects a{
+  text-decoration: none;
+}
+
+.projects a:hover{
+  font-weight: bold;
+  color:   #E67E22;
+}
+
+.contact{
+  margin: 30px 200px;
+  
+}
+
+.contact input{
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  box-shadow: 1px 1px 2px 1px gray;
+  
+}
+
+.contact #message{
+  height: 120px;
+}
+.contact h1{
+  text-align: center;
+  text-shadow: 1px 1px 2px  #F4F4F4;
+  margin-top: 30px;
+  color:#2C3E50;
+
+}
+
+.contact button{
+  width: 70px;
+  height: 40px;
+  background-color:  #E67E22;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 1px 2px 2px black;
+  cursor: pointer;
+}
+
+.cont{
+  display: flex;
+  gap: 100px;
+  align-items: center;
+
+}
+.cicon{
+  height: 250px;
+  width: 500px;
+  box-shadow: 1px 2px 2px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contacticon{
+  display: flex;
+  gap: 15px;
+  margin: 20px;
+  
+}
+
+.contacticon i{
+  padding-top:5px;
+}
+
+
+
+.skills-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill p {
+    margin: 0 0 5px;
+    font-weight: bold;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 25px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color:  #E67E22;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 25px;
+    font-weight: bold;
+    border-radius: 20px 0 0 20px;
+    transition: width 1s ease-in-out;
+  }
+
+  .projects h1{
+    padding-bottom: 15px;
+
+  }
+  .grid{
+    display: grid;
+    grid-template: 
+    "coffee   portfolio   todo" 300px
+    "counter  calculator  calendar" 300px
+    "blog     netlify     motto" 300px
+    /300px    300px       300px;
+    justify-content: center;
+  }
+ 
+.report{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 100px;
+
+}
+
+.report i{
+   font-size: 70px;
+   color: #2C3E50;
+}
+
+.report p{
+  text-align: center;
+}
+
+.report h1{
+  text-align: center;
+}
+.happy, .clock, .file, .comment{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+  .grid img{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px #F4F4F4;
+  }
+
+  .grid a img:hover{
+    height: 270px;
+    width: 270px;
+
+  }
+  .grid a p{
+    text-decoration: none;
+    color:black;
+
+  }
+
+  .grid a p:hover{
+    color:#E67E22;
+    font-weight: bold;
+  }
+
+
+
+  .coffee{
+    grid-area: coffee;
+  }   
+  .portfolio{
+    grid-area: portfolio;
+  }   
+  .todo{
+    grid-area: todo;
+  }    
+  .counter{
+    grid-area: counter;
+    } 
+  .calculator{
+    grid-area: calculator;
+  } 
+  .calendar{
+    grid-area: calendar;
+  } 
+  .blog{
+    grid-area: blog;
+  }    
+  .netlify{
+    grid-area: netlify;
+  }     
+  .motto{
+    grid-area: motto;
+  }
+
+  footer{
+    background-color:#2C3E50 ;
+    color:#F4F4F4;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+  }
+
+  @media screen and (max-width: 768px){
+    body{
+      background-color:#EAF6FF;
+      overflow-x: hidden;
+      flex-wrap: wrap;
+      scroll-behavior: smooth;
+    }
+
+    .icon{
+      display:block;
+     
+  }
+
+  .icon:active{
+    color:#E67E22;
+  }
+  .navcontact{
+    
+      position: absolute;
+      top:70px;
+      left:0;
+      right:60%;
+      text-align: left;
+      display: flex;
+      opacity: 1;
+      background-color:#2C3E50;
+      display: none;
+      overflow: hidden;
+      transition: all .5s ease-in;
+      z-index: 998;
+      
+  }
+.navcontact img{
+  margin-left: 90px;
+}
+  .navcontact .social{
+    display:flex;
+    color: white;
+    gap: 20px;
+    left: 10;
+    justify-content: center;
+
+  }
+
+  .menu{
+      position: absolute;
+      top:130px;
+      left:0;
+      right:60%;
+      text-align: left;
+  
+      flex-direction: column;
+      background-color: #2C3E50;
+      
+      display: none;
+      overflow: hidden;
+      align-items: center;
+      opacity: 0;
+      color:#F4F4F4;
+      transform: translateY(-20px);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      z-index:1000;
+      
+  }
+
+  .menu.active {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .menu li {
+    margin: 1rem 0;
+  }
+
+  .icon {
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+    z-index: 1001;
+  }
+  
+
+  .menu li{
+      padding: 10px 5px;
+  }
+
+
+ .menu  li:hover{
+      background-color: #E67E22;
+  }
+
+
+  .navcontact.active{
+      display: block;
+  }
+
+  .hero .herotext {
+    font-size: 1.5rem;
+    left: 5%;
+  }
+
+  .about p, .contact {
+    margin: 10px 20px;
+  }
+  .cont{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact input {
+    width: 300px;
+  }
+
+  .report{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+    
+  }
