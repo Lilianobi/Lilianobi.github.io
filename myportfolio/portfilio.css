@@ -526,11 +526,13 @@ nav .menu li a{
 
   .cv .exp{
     align-self: center;
+    width: 350px;
 
   }
 
   .cv .edu{
     align-self: center;
+    width: 350px;
   }
   .report div{
     margin-top: 10px;
