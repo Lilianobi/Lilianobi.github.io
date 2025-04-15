@@ -26,7 +26,8 @@ nav{
 }
 
 .navcontact i{
-  color:#F4F4F4
+  color:#F4F4F4;
+  transition: all 0.3s ease-in-out;
  
 }
 
@@ -58,22 +59,25 @@ nav .menu li a{
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
+  transition: all 0.3 ease;
 }
 
 .icon{
   font-size: 30px;
   color:#F4F4F4;
-  display: none;
+  display: none; 
 }
 
 .menu a:hover{
   background-color: #E67E22;
   text-decoration: underline;
+  transition: all 0.5s ease-in;
 }
 
 .menu a:active{
   color:black;
   background-color: #F4F4F4;
+  transition: all 0.3s ease-in-out;
 }
 
 .hero{
@@ -191,6 +195,7 @@ nav .menu li a{
 .projects a:hover{
   font-weight: bold;
   color:   #E67E22;
+  transition: all 0.5 ease-in;
 }
 
 .contact{
@@ -202,7 +207,8 @@ nav .menu li a{
   display: flex;
   justify-content: center;
   width: 500px;
-  box-shadow: 1px 1px 2px 1px gray;
+  box-shadow: 0px 1px 2px  gray;
+  border: none;
   
 }
 
@@ -337,6 +343,7 @@ nav .menu li a{
   .grid a img:hover{
     height: 270px;
     width: 270px;
+    transition: all 0.5s ease-in-out;
 
   }
   .grid a p{
@@ -390,6 +397,9 @@ nav .menu li a{
   }
 
   @media screen and (max-width: 768px){
+    *{
+      scroll-behavior: smooth;
+    }
     body{
       background-color:#EAF6FF;
       overflow-x: hidden;
@@ -404,7 +414,9 @@ nav .menu li a{
 
   .icon:active{
     color:#E67E22;
+    transition: all 0.3s ease-in;
   }
+
   .navcontact{
     
       position: absolute;
@@ -491,9 +503,45 @@ nav .menu li a{
     left: 5%;
   }
 
-  .about p, .contact {
-    margin: 10px 20px;
+  .about p{
+    font-size: 14px;
+    text-align: center;
   }
+
+  .about p, .contact {
+    margin: 20px 20px;
+
+  }
+  .cv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+
+  .cv .exp{
+    align-self: center;
+
+  }
+
+  .cv .edu{
+    align-self: center;
+  }
+  .report div{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+  }
+
+  .report h1, .report p{
+    text-align: left;
+  }
+
+  .grid section{
+    margin-bottom: 20px;
+  }
+
   .cont{
     display: flex;
     flex-direction: column;
@@ -501,6 +549,15 @@ nav .menu li a{
 
   .contact input {
     width: 300px;
+  }
+
+  .cicon{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+
   }
 
   .report{
@@ -520,6 +577,10 @@ nav .menu li a{
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
     padding: 2rem;
+  }
+
+  footer{
+    width: 100vw;
   }
   
     
