@@ -422,7 +422,7 @@ nav .menu li a{
       position: absolute;
       top:70px;
       left:0;
-      right:60%;
+      right:65%;
       text-align: left;
       display: flex;
       opacity: 1;
@@ -449,7 +449,7 @@ nav .menu li a{
       position: absolute;
       top:130px;
       left:0;
-      right:60%;
+      right:65%;
       text-align: left;
   
       flex-direction: column;
@@ -518,6 +518,10 @@ nav .menu li a{
     justify-content: center;
     gap: 30px;
     margin-bottom: 20px;
+  }
+
+  .cv div{
+    width: 70vw;
   }
 
   .cv .exp{
