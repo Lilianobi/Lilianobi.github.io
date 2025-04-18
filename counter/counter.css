@@ -33,9 +33,10 @@ header{
 
 .btn{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-top: 100px;
+    gap: 40px;
 }
 
 .increment{
@@ -60,11 +61,41 @@ header{
 }
 
 .reset{
-    background-color: yellow;
+    background-color: blue;
     width: 150px;
     height: 50px;
     box-shadow: 1px 1px 1px black;
     border: none;
     cursor: pointer;
 
+}
+
+.plus{
+    background-color: yellow;
+    width: 150px;
+    height: 50px;
+    box-shadow: 1px 1px 1px black;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen  and (max-width: 768px) {
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        gap: 20px;
+    }
+    
+    .increment, .decrement, .reset, .plus{
+       
+        width: 100px;
+        height: 40px;
+        box-shadow: 1px 1px 1px black;
+        border: none;
+        cursor: pointer;
+    
+    }
+    
 }
