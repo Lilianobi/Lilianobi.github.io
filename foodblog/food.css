@@ -81,11 +81,11 @@ nav{
 
 .blog img{
     height: 400px;
-    width: 280px;
+    width: 300px;
 }
 
 .blog h1, .blog p{
-    width: 280px;
+    width: 300px;
     text-align: center;
 }
 nav h1, .blog h1{
