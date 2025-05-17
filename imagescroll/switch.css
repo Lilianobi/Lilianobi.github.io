@@ -38,7 +38,7 @@ button:active{
     background-color: rgb(241, 194, 202);
 }
 
-button:visited{
+button.visited{
     background-color: rgba(53, 128, 169, 0.7);
     animation: inactive 5s forwards;
     
@@ -91,4 +91,9 @@ img{
 
 .show{
     display:block;
+}
+
+@media  screen and (max-width: 768px) {
+    
+    
 }

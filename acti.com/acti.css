@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    scroll-behavior: smooth;
+    /*overflow-x: hidden;*/
+    font-family: 'Montserrat';
+    
+}
+nav{
+    width:100%;
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    display: flex;
+}
+.logo h1{
+    display: flex;
+    padding-top: 20px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+li{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a{
+    display:flex;
+    gap: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+ul li a:hover{
+    background-color: #F4A261;
+    border-radius: 8px;
+
+}
+
+#bars{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+nav, .hero{
+    background-color: #7B5E57;
+    
+}
+
+.hero{
+    color: white;
+    display: flex;
+    gap: 50px;
+    height: 98vh;
+
+}
+.hero img{
+    height: 685px;
+    width: 800px;
+    object-fit: fill;
+}
+.pfont{
+    font-family: 'Pacifico';
+    color:#F4A261;
+
+}
+.hero-text{
+    width: 600px;
+    padding-top: 200px;
+    text-align: left;
+}
+
+.pribtn{
+    color: black;
+    background-color: #F4A261;
+    border: none;
+    border-radius: 8px; 
+    width:70px;
+    height: 30px; 
+    transition: all 1s ease-in-out;
+    margin-right: 30px; 
+}
+.pribtn:hover {
+    border: 1px solid #F4A261;
+    background-color: #EAE7DC;
+    
+}
+
+.secbtn{
+     color: black;
+    background-color: #EAE7DC;
+    border: none;
+    border-radius: 8px;
+    width:70px;
+    height: 30px;  
+    transition: all 1s ease-in-out; 
+
+}
+.secbtn:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.aboutus{
+     background-color: #F1EDE3;
+     height: 98vh;
+}
+
+.about{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.title{
+    text-align: center;
+    padding-bottom: 20px;;
+}
+.about p{
+    width:700px;
+    padding-bottom: 40px;
+}
+.sp{
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 2px 2px grey;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.sp:hover{
+    transform: scale(105%);
+}
+.shade{
+    border: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width:150px;
+    height: 50px;
+    background-color: #b29088;
+    
+    
+}
+
+.shade img{
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 55px;
+}
+
+.sp p{
+    width: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.usp{
+    display: flex;
+    gap:20px;
+}
+
+.social-icon{
+    display: flex;
+    gap: 40px;
+    width: 700px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.menu{
+    background-color: rgba(43, 27, 23, 0.8);
+    color: white;
+}
+
+.coffee-brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.coffee-brands p{
+    width: 300px;
+}
+
+.coffee-img{
+    width: 400px;
+    height: 400px;
+}
+.coffee-brands h3, .coffee-brands p{
+    text-align: center;
+    width: 400px;
+    padding-bottom: 10px;
+}
+
+.price{
+    font-weight: bold;
+    color: #F4A261; 
+}
+
+
+#sub-title{
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.gallery img{
+    width: 200px;
+    height: 200px;
+}
+.reviews{
+    background-color: rgba(244,164,97, 0.8);
+    
+}
+.cust-reviews{
+    display: flex;
+    gap:100px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.cust-reviews p, h5{
+    width: 300px;
+    text-align: center;
+}
+
+.cust-reviews p{
+    padding-bottom: 40px;
+}
+
+
+.review-img{
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+    margin: 15px 115px;
+}
+  
+.contactus{
+    background-color: #F1EDE3;
+}
+.contact{
+    display: flex;
+    gap:50px;
+    justify-content: space-between;
+    margin: 40px 150px;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+form h2{
+    padding-bottom: 20px;
+}
+
+#fullName , #email{
+    width: 300px;
+    height: 40px;
+}
+
+#message{
+    width: 300px;
+    height: 150px;
+}
+
+form button{
+    color: black;
+    background-color: #F4A261;
+    border: none;
+    border-radius: 8px; 
+    width:70px;
+    height: 30px; 
+    transition: all 1s ease-in-out;
+    margin-top: 15px;
+}
+.form button:hover {
+    border: 1px solid #F4A261;
+    background-color: #EAE7DC;
+    
+}
+
+footer{
+    display: flex;
+    background-color: #7B5E57;
+    color:white;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.social-icon1{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color: white;
+}
+.bg, .bg1, .com, .com1, .sec, .sec1{
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.bg{
+    background-color: #4B3621;
+}
+
+.bg1{
+    background-color: #7B5E57;
+}
+
+.com{
+    background-color: #F4A261;
+}
+.com1{
+    background-color: #F8C291;
+}
+.sec{
+    background-color: #F1EDE3;
+}
+.sec1{
+    background-color: #EAE7DC;
+}
