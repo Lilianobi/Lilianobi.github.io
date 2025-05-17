@@ -5,7 +5,7 @@ import {
   UIKitSettingsBuilder,
   CometChatUIKit,
 } from "@cometchat/chat-uikit-react";
-import { setupLocalization } from "./CometChat/utils/utils";
+import { setupLocalization } from "./CometChat/utils/utils.ts";
 import { BuilderSettingsProvider } from "./CometChat/context/BuilderSettingsContext";
 
 export const COMETCHAT_CONSTANTS = {
