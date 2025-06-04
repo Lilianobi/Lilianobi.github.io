@@ -63,7 +63,7 @@ const App = () => {
           bottom: "20px",
           right: "20px",
           width: "350px",
-          height: "100px",
+          height: "300px",
           zIndex: 1000,
           backgroundColor: "#fff",
           borderRadius: "10px",

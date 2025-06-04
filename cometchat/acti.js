@@ -11,10 +11,3 @@ function validateForm() {
     alert("Message Submitted!");
     return true; // Allow form submission
 }
-
-const ham = document.querySelector("#bars");
-const links = document.querySelector(".nav-links")
-
-ham.addEventListener("click", () => {
-    links.classList.toggle("visible")
-})

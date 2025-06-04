@@ -60,7 +60,6 @@ ul li a:hover{
     justify-content: space-between;
     align-items: center;
     color: white;
-    display: none;
 
 }
 
@@ -334,78 +333,7 @@ footer{
     justify-content: center;
     color: white;
 }
-
-@media screen and (max-width: 950px){
-    body{
-        overflow-x:hidden;
-
-    }
-    nav ul{
-        display: none;
-    }
-    #bars{
-        display:block;
-    }
-    .visible{
-        position: absolute;
-        right:0;
-        left:0;
-        top:80px;
-        padding-left: 30px;
-        height: 100vh;
-        background-color: #7B5E57;
-        color:#F1EDE3;
-        display: block;
-        gap:50px;
-        transition: all 1s ease-in;
-    }
-    .hero{
-        flex-direction: column;
-        height: 100vh;
-    }
-    .hero img{
-        height: 50vh;
-    }
-    .hero-text{
-         width: 100vw;
-         padding-top: 20px;
-         text-align: left;
-    }
-    .aboutus{
-        flex-direction: column;
-        height: 100vh;
-    }
-    .about{
-        flex-direction: column;
-        
-    }
-    .about-text {
-        width:100vw;
-        height: auto;
-    }
-
-    .about-img{
-        height: 40vh;
-    }
-
-    .usp{
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .menu{
-        flex-direction: column;
-    }
-
-    .cust-reviews{
-        flex-direction: column;
-        gap:20px;
-    }
-    .contact{
-        flex-direction: column;
-    }
-}
-/*.bg, .bg1, .com, .com1, .sec, .sec1{
+.bg, .bg1, .com, .com1, .sec, .sec1{
     height: 100px;
     width: 100px;
     border-radius: 8px;
