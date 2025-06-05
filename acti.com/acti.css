@@ -127,7 +127,7 @@ nav, .hero{
 .aboutus{
      background-color: #F1EDE3;
      height: 98vh;
-}
+ }
 
 .about{
    
@@ -136,13 +136,20 @@ nav, .hero{
     align-items: center;
     gap: 50px;
 }
+.about-img{
+    width: 45vw;
+}
 .title{
     text-align: center;
     padding-bottom: 20px;;
 }
 .about p{
-    width:700px;
+    width:50vw;
     padding-bottom: 40px;
+    
+}
+.about-text{
+    width:50vw;
 }
 .sp{
     width: 150px;
@@ -184,6 +191,7 @@ nav, .hero{
 .usp{
     display: flex;
     gap:20px;
+    flex-wrap: wrap;
 }
 
 .social-icon{
@@ -370,6 +378,7 @@ footer{
          width: 100vw;
          padding-top: 20px;
          text-align: left;
+         padding-left: 10px;
     }
     .aboutus{
         flex-direction: column;
