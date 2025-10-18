@@ -1,54 +1,150 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    background: #f9fafb;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background: #f9fafb;
+  font-family: Arial, sans-serif;
 }
 
-article{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: center ;
-    justify-content: space-between;
 
-
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
 }
 
-.user-card{
-    background: #fff;
-    border-radius: 16px;
-    width: 350px; 
-    height: 650px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin-top: 30px;
-}
-img{
-    border-radius: 50%;
-    object-fit: cover;
-    width: 100px;
-    height: 100px;
+
+.user-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 800px;
+  transition: all 0.3s ease-in-out;
 }
 
-.socials{
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    gap: 10px;
+.user-card:hover {
+  transform: translateY(-5px);
+}
+
+.avatar img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+/* Text and links */
+.user-info {
+  flex: 1;
+  text-align: left;
+}
+
+.username {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.bio {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.time {
+  color: #0073e6;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Social links */
+.socials {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.socials a {
+  text-decoration: none;
+  background: #0073e6;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.socials a:hover {
+  background: #005bb5;
+}
+
+
+.extra-info {
+  flex: 0.8;
+  text-align: left;
+}
+
+.extra-info ul {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .user-card {
+    flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+
+  .extra-info {
+    text-align: center;
+  }
+
+  .socials {
     justify-content: center;
+  }
 }
 
-.socials li{
+
+nav ul li{
+    border-radius: 8px;
+    box-shadow: 0, 2px, 3px rgba(0,0,0,0.3);
+    color: white;
+
+}
+
+nav ul li a{
     text-decoration: none;
+    color: white;
 }
 
+#git{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 70px;
+    height: 20px;
+}
+
+#linkedin{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 70px;
+    height: 20px;
+}
 section li{
     list-style: none;
     align-items: center;
-    text-align: center;
+    text-align: start;
 }
 
 @media screen and (max-width:750px){

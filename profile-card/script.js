@@ -1,10 +1,10 @@
 function updateTime() {
-  const timeElements = document.querySelectorAll('[data-testid="test-user-time"]');
-  const now = Date.now();
-  timeElements.forEach(el => {
-    el.textContent = now;
-  });
+  const timeElement = document.getElementById("time");
+  const now = new Date();
+  const formattedTime = now.toLocaleTimeString();
+  timeElement.textContent = formattedTime;
 }
+
 
 updateTime();
 setInterval(updateTime, 1000);
